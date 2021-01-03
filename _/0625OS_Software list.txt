@@ -1,0 +1,17 @@
+Here is the required software list:
+1. Apache Tomcat 6:
+http://tomcat.apache.org/download-60.cgi
+
+2. Web Browsers:
+Firefox, Safari, Google Chrome and (Internet Explorer 8+).
+
+3. Java Development Kit (JDK) version 5.0 or later:
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+4. The Selenium Server version 2.25.0 (For Chapter 3 only):
+http://seleniumhq.org/download/.
+
+5. Eclipse IDE (For the last chapter only):
+http://www.eclipse.org/downloads/packages/release/indigo/sr2
+
+The JavaScript unit testing frameworks are included as part of the war files. 

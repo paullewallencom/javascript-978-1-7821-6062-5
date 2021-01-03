@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Microsoft_Internet_Explorer_80_Windows.WeatherClient Testcase" errors="0" failures="0" tests="2" time="1.11">
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.WeatherClient Testcase" name="testGetWeatherForValidPlace" time="0.828"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.WeatherClient Testcase" name="testGetWeatherForInvalidPlace" time="0.282"/>
+<system-out><![CDATA[[LOG] [Success] Weather information is retrieved successfully ...[LOG] [Success] The weather information is not retrieved for the invalid place ...]]></system-out>
+</testsuite>

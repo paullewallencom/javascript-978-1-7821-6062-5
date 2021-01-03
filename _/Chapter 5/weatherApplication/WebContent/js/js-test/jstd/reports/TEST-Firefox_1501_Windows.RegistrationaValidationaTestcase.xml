@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.Registration Validation Testcase" errors="0" failures="0" tests="5" time="0.0050000004">
+<testcase classname="Firefox_1501_Windows.Registration Validation Testcase" name="testEmptyUserName" time="0.0010"/>
+<testcase classname="Firefox_1501_Windows.Registration Validation Testcase" name="testEmptyPassword" time="0.0010"/>
+<testcase classname="Firefox_1501_Windows.Registration Validation Testcase" name="testMatchedPasswords" time="0.0010"/>
+<testcase classname="Firefox_1501_Windows.Registration Validation Testcase" name="testUsernameFormat" time="0.0010"/>
+<testcase classname="Firefox_1501_Windows.Registration Validation Testcase" name="testPasswordFormat" time="0.0010"/>
+</testsuite>

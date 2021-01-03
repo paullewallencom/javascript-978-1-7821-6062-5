@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Microsoft_Internet_Explorer_80_Windows.LoginClient Test Module" errors="0" failures="0" tests="4" time="0.015">
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.LoginClient Test Module" name="test validating empty username" time="0.0"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.LoginClient Test Module" name="test validating empty password" time="0.0"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.LoginClient Test Module" name="test validating username format" time="0.015"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.LoginClient Test Module" name="test validating password format" time="0.0"/>
+</testsuite>

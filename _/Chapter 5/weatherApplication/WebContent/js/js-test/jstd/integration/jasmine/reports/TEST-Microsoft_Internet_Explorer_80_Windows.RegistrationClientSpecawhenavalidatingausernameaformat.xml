@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Microsoft_Internet_Explorer_80_Windows.RegistrationClientSpec when validating username format" errors="0" failures="0" tests="1" time="0.0">
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClientSpec when validating username format" name="should be able to display an error message when username format is not correct" time="0.0"/>
+</testsuite>

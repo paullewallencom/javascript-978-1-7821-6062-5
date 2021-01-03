@@ -1,0 +1,8 @@
+<project name="weatherApplication" default="runJSTDTests" basedir=".">
+	<target name="runJSTDTests">
+	  <exec executable="cmd">
+	    <arg value="/c"/>
+	    <arg value="runAllTests.bat"/>
+	  </exec>
+	</target>
+</project>

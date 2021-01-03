@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.Registration Testcase" errors="0" failures="0" tests="1" time="0.021">
+<testcase classname="Firefox_1501_Windows.Registration Testcase" name="testRegisterUser" time="0.021"/>
+<system-out><![CDATA[[LOG] [Success] User is registered successfully ...
+[LOG] [Success] User is not created because the user id is already registered ...]]></system-out>
+</testsuite>

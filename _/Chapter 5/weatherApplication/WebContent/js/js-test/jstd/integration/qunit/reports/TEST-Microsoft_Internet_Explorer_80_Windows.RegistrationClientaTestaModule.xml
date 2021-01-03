@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" errors="0" failures="0" tests="6" time="0.092">
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test validating empty username" time="0.0"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test validating empty password" time="0.015"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test validating matched passwords" time="0.0"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test validating username format" time="0.015"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test validating password format" time="0.0"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.RegistrationClient Test Module" name="test testing the registration feature" time="0.062"/>
+</testsuite>

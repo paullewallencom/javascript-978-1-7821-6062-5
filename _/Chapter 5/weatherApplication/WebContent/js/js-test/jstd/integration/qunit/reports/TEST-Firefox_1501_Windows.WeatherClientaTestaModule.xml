@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.WeatherClient Test Module" errors="0" failures="0" tests="2" time="2.268">
+<testcase classname="Firefox_1501_Windows.WeatherClient Test Module" name="test getting the weather information for a valid place" time="1.913"/>
+<testcase classname="Firefox_1501_Windows.WeatherClient Test Module" name="test getting the weather information for an invalid place" time="0.355"/>
+</testsuite>

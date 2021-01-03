@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Broken JavaScript Example</title>
+	<script type="text/javascript">
+		function welcome() {
+			var userName = document.getElementById("userName").value;
+			document.getElementById("welcomeMessage").innerText = "Welcome " + userName + "!";
+		}
+	</script>	
+</head>
+<body>
+	<h1>Broken JavaScript Example</h1>
+	
+	<label>Please enter your name:</label>
+	<input id="userName" type="text" /><br/>
+	<input type="button" onclick="welcome()" value="Welcome"></input><br/><br/>
+	<div id="welcomeMessage"/>
+
+</body>
+</html>
+

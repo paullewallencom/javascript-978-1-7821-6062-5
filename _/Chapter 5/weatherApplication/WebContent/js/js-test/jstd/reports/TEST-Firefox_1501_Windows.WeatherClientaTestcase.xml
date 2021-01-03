@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.WeatherClient Testcase" errors="0" failures="0" tests="2" time="0.90999997">
+<testcase classname="Firefox_1501_Windows.WeatherClient Testcase" name="testGetWeatherForValidPlace" time="0.648"/>
+<testcase classname="Firefox_1501_Windows.WeatherClient Testcase" name="testGetWeatherForInvalidPlace" time="0.262"/>
+<system-out><![CDATA[[LOG] [Success] Weather information is retrieved successfully ...[LOG] [Success] The weather information is not retrieved for the invalid place ...]]></system-out>
+</testsuite>

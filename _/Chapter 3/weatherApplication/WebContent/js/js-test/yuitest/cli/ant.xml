@@ -1,0 +1,8 @@
+<project name="weatherApplication" default="runYUITests" basedir=".">
+	<target name="runYUITests">
+	  <exec executable="cmd">
+	    <arg value="/c"/>
+	    <arg value="runTests.bat"/>
+	  </exec>
+	</target>
+</project>

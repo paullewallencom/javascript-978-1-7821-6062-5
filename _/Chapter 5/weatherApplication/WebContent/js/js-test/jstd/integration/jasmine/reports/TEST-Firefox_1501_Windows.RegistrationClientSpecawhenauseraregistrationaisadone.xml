@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.RegistrationClientSpec when user registration is done" errors="0" failures="0" tests="2" time="0.671">
+<testcase classname="Firefox_1501_Windows.RegistrationClientSpec when user registration is done" name="should be able to register valid user correctly" time="0.545"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClientSpec when user registration is done" name="should fail when a specific user id is already registered" time="0.126"/>
+</testsuite>

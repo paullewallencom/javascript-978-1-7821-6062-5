@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.WeatherClientSpec when getting the weather information" errors="0" failures="0" tests="2" time="0.722">
+<testcase classname="Firefox_1501_Windows.WeatherClientSpec when getting the weather information" name="should be able to get the weather of a valid location (Cairo)" time="0.46"/>
+<testcase classname="Firefox_1501_Windows.WeatherClientSpec when getting the weather information" name="should fail when getting the weather information of an invalid location" time="0.262"/>
+</testsuite>

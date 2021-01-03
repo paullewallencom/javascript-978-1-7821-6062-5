@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>YUITest Example</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		
+		<script src="http://yui.yahooapis.com/3.6.0/build/yui/yui-min.js"></script>
+	</HEAD>
+	<BODY>
+		<div id="log" class="yui3-skin-sam" style="margin:0px"></div>	
+	
+		<script language="javascript" type="text/javascript">
+			YUI().use('test', 'console', function(Y) {
+				
+				// Here declare your testsuite with the testcases (tests) ...
+				
+				//create the console
+				var console = new Y.Console({
+					style: 'block',			
+					newestOnTop : false
+				});
+				console.render('#log');	
+				
+				// Here run the tests ...
+		
+			});
+		</script>	
+		
+		
+	</BODY>	
+</HTML>

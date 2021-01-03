@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>SimpleMathTest</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		
+		<script src="http://yui.yahooapis.com/3.6.0/build/yui/yui-min.js"></script>
+		<script src="src/simpleMath.js"></script>		
+	</HEAD>
+	<BODY>
+		<div id="resultsPanel" class="yui3-skin-sam"></div>	
+		<script language="javascript" type="text/javascript">
+			YUI().use('test', 'console', function(Y){
+				var factorialTestcase = new Y.Test.Case({
+					name: "Factorial Testcase",
+					
+					_should: {
+						error: {
+							testNegativeNumber: true //this test should throw an error
+						}
+					},				
+					
+					setUp: function() {
+						this.simpleMath = new SimpleMath();
+					},
+					tearDown: function() {
+						delete this.simpleMath;
+					},
+					testPositiveNumber: function() {
+						Y.Assert.areEqual(this.simpleMath.getFactorial(3), 6);
+					}, 
+					testZero: function() {	
+						Y.Assert.areEqual(this.simpleMath.getFactorial(0), 1);					
+					}, 
+					testNegativeNumber: function() {	
+						this.simpleMath.getFactorial(-1);					
+					}			
+				});
+				
+				var signumTestcase = new Y.Test.Case({
+					name: "Signum Testcase",			
+					
+					setUp: function() {
+						this.simpleMath = new SimpleMath();
+					},
+					tearDown: function() {
+						delete this.simpleMath;
+					},
+					testPositiveNumber: function() {
+						Y.Assert.areEqual(this.simpleMath.signum(3), 1);
+					}, 
+					testZero: function() {	
+						Y.Assert.areEqual(this.simpleMath.signum(0), 0);					
+					}, 
+					testNegativeNumber: function() {					
+						Y.Assert.areEqual(this.simpleMath.signum(-1000), -1);					
+					}			
+				});		
+
+				var averageTestcase = new Y.Test.Case({
+					name: "Average Testcase",			
+					
+					setUp: function() {
+						this.simpleMath = new SimpleMath();
+					},
+					tearDown: function() {
+						delete this.simpleMath;
+					},
+					testAverage: function() {					
+						Y.Assert.areEqual(this.simpleMath.average(3, 6), 4.5);					
+					}			
+				});					
+				
+				var suite = new Y.Test.Suite("SimpleMath Test Suite");
+				
+				suite.add(factorialTestcase);
+				suite.add(signumTestcase);
+				suite.add(averageTestcase);			
+				
+				//create the console
+				var console = new Y.Console({
+					style: 'block',			
+					newestOnTop : false
+				});
+				console.render('#resultsPanel');	
+				
+				Y.Test.Runner.add(suite);
+				Y.Test.Runner.run();
+		
+			});
+		</script>
+	</BODY>	
+</HTML>

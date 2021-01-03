@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="Empty userName and Password fields Testcase" failures="0" total="2" time="0.0060">
+<testcase classname="YUITest.firefox.RegistrationClientTestSuite.EmptyuserNameandPasswordfieldsTestcase" name="testEmptyUserName" time="0.0010">
+</testcase><testcase classname="YUITest.firefox.RegistrationClientTestSuite.EmptyuserNameandPasswordfieldsTestcase" name="testEmptyPassword" time="0.0010">
+</testcase>
+</testsuite><testsuite name="Matched passwords Testcase" failures="0" total="1" time="0.016">
+<testcase classname="YUITest.firefox.RegistrationClientTestSuite.MatchedpasswordsTestcase" name="testMatchedPasswords" time="0.0010">
+</testcase>
+</testsuite><testsuite name="Fields format Testcase" failures="0" total="2" time="0.028">
+<testcase classname="YUITest.firefox.RegistrationClientTestSuite.FieldsformatTestcase" name="testUsernameFormat" time="0.0010">
+</testcase><testcase classname="YUITest.firefox.RegistrationClientTestSuite.FieldsformatTestcase" name="testPasswordFormat" time="0.0010">
+</testcase>
+</testsuite><testsuite name="RegisterUser Testcase" failures="0" total="2" time="0.019">
+<testcase classname="YUITest.firefox.RegistrationClientTestSuite.RegisterUserTestcase" name="testAddNewUser" time="0.0020">
+</testcase><testcase classname="YUITest.firefox.RegistrationClientTestSuite.RegisterUserTestcase" name="testAddExistingUser" time="0.0020">
+</testcase>
+</testsuite>
+</testsuites>

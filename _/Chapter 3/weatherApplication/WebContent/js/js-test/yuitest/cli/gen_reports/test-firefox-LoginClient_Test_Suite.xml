@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="Empty userName and Password fields validation Testcase" failures="0" total="2" time="0.0020">
+<testcase classname="YUITest.firefox.LoginClientTestSuite.EmptyuserNameandPasswordfieldsvalidationTestcase" name="testEmptyUserName" time="0.0">
+</testcase><testcase classname="YUITest.firefox.LoginClientTestSuite.EmptyuserNameandPasswordfieldsvalidationTestcase" name="testEmptyPassword" time="0.0010">
+</testcase>
+</testsuite><testsuite name="Fields format validation Testcase" failures="0" total="2" time="0.0070">
+<testcase classname="YUITest.firefox.LoginClientTestSuite.FieldsformatvalidationTestcase" name="testUsernameFormat" time="0.0010">
+</testcase><testcase classname="YUITest.firefox.LoginClientTestSuite.FieldsformatvalidationTestcase" name="testPasswordFormat" time="0.0010">
+</testcase>
+</testsuite>
+</testsuites>

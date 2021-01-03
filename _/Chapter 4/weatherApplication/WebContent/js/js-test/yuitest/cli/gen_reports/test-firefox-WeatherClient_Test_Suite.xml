@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="Getting weather information Testcase" failures="0" total="2" time="0.801">
+<testcase classname="YUITest.firefox.WeatherClientTestSuite.GettingweatherinformationTestcase" name="Getting the weather information for a valid place" time="0.542">
+</testcase><testcase classname="YUITest.firefox.WeatherClientTestSuite.GettingweatherinformationTestcase" name="Getting the weather information for an invalid place" time="0.252">
+</testcase>
+</testsuite>
+</testsuites>

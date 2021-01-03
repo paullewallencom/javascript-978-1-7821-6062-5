@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Microsoft_Internet_Explorer_80_Windows.WeatherClient Test Module" errors="0" failures="0" tests="2" time="0.922">
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.WeatherClient Test Module" name="test getting the weather information for a valid place" time="0.547"/>
+<testcase classname="Microsoft_Internet_Explorer_80_Windows.WeatherClient Test Module" name="test getting the weather information for an invalid place" time="0.375"/>
+</testsuite>

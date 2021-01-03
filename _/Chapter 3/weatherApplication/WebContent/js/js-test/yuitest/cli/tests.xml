@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<yuitest>
+    <tests base="http://localhost:8080/weatherApplication/js/js-test/yuitest/tests/" timeout="30000">
+        <url>LoginClientTest.html</url>
+        <url>RegistrationClientTest.html</url>
+        <url>WeatherClientTest.html</url>
+    </tests>
+</yuitest>

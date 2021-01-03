@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.LoginClient Test Module" errors="0" failures="0" tests="4" time="0.013">
+<testcase classname="Firefox_1501_Windows.LoginClient Test Module" name="test validating empty username" time="0.0050"/>
+<testcase classname="Firefox_1501_Windows.LoginClient Test Module" name="test validating empty password" time="0.0020"/>
+<testcase classname="Firefox_1501_Windows.LoginClient Test Module" name="test validating username format" time="0.0040"/>
+<testcase classname="Firefox_1501_Windows.LoginClient Test Module" name="test validating password format" time="0.0020"/>
+</testsuite>

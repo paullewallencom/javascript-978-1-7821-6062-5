@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_1501_Windows.RegistrationClient Test Module" errors="0" failures="0" tests="6" time="0.27499998">
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test validating empty username" time="0.0040"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test validating empty password" time="0.0060"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test validating matched passwords" time="0.0030"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test validating username format" time="0.0020"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test validating password format" time="0.0020"/>
+<testcase classname="Firefox_1501_Windows.RegistrationClient Test Module" name="test testing the registration feature" time="0.258"/>
+</testsuite>

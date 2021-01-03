@@ -1,0 +1,1 @@
+java -jar yuitest-selenium-driver.jar --browsers *firefox,*iexplore  --tests tests.xml --resultsdir %~dp0gen_reports
